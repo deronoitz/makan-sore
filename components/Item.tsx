@@ -2,7 +2,7 @@ const Item = (props: any) => {
   return (
     <div className="item">
       <div>
-        <label>Product Name</label>
+        <label>Nama Makanan</label>
         <input type="text" name="name" onChange={(e) => props.actionChange(e, props.id)}/>
       </div>
       <div style={{width: 150}}>
@@ -37,6 +37,7 @@ const Item = (props: any) => {
           }
           .item {
             display: flex;
+            margin-bottom: 15px;
           }
           label {
             margin-bottom: 5px;
